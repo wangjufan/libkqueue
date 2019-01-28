@@ -7,14 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0D55F1F720F9A276002C2FEF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D55F1F620F9A276002C2FEF /* AppDelegate.m */; };
-		0D55F1FA20F9A276002C2FEF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D55F1F920F9A276002C2FEF /* ViewController.m */; };
-		0D55F1FD20F9A276002C2FEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D55F1FB20F9A276002C2FEF /* Main.storyboard */; };
-		0D55F1FF20F9A276002C2FEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D55F1FE20F9A276002C2FEF /* Assets.xcassets */; };
-		0D55F20220F9A276002C2FEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D55F20020F9A276002C2FEF /* LaunchScreen.storyboard */; };
-		0D55F20520F9A276002C2FEF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D55F20420F9A276002C2FEF /* main.m */; };
-		0D55F20F20F9A276002C2FEF /* XClibkqueueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D55F20E20F9A276002C2FEF /* XClibkqueueTests.m */; };
-		0D55F21A20F9A276002C2FEF /* XClibkqueueUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D55F21920F9A276002C2FEF /* XClibkqueueUITests.m */; };
 		0D55F28620F9A28C002C2FEF /* kqueue.2 in Resources */ = {isa = PBXBuildFile; fileRef = 0D55F22820F9A28B002C2FEF /* kqueue.2 */; };
 		0D55F28720F9A28C002C2FEF /* ChangeLog in Resources */ = {isa = PBXBuildFile; fileRef = 0D55F22920F9A28B002C2FEF /* ChangeLog */; };
 		0D55F28820F9A28C002C2FEF /* kqueue.c in Sources */ = {isa = PBXBuildFile; fileRef = 0D55F22B20F9A28B002C2FEF /* kqueue.c */; };
@@ -80,6 +72,39 @@
 		0D55F2C420F9A28C002C2FEF /* README in Resources */ = {isa = PBXBuildFile; fileRef = 0D55F28220F9A28C002C2FEF /* README */; };
 		0D55F2C520F9A28C002C2FEF /* test-lite.c in Sources */ = {isa = PBXBuildFile; fileRef = 0D55F28320F9A28C002C2FEF /* test-lite.c */; };
 		0D55F2C620F9A28C002C2FEF /* Vagrantfile in Resources */ = {isa = PBXBuildFile; fileRef = 0D55F28520F9A28C002C2FEF /* Vagrantfile */; };
+		0D55F31420F9C177002C2FEF /* KQUEUE prototype implementation for Linux. .pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0D55F2F220F9C177002C2FEF /* KQUEUE prototype implementation for Linux. .pdf */; };
+		0D55F31520F9C177002C2FEF /* Kqueue- A generic and scalable event notification facility.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0D55F2F320F9C177002C2FEF /* Kqueue- A generic and scalable event notification facility.pdf */; };
+		0D55F31620F9C177002C2FEF /* Parallelism with Asynchronous Lambdas on Fiasco.OC:L4Re.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0D55F2F420F9C177002C2FEF /* Parallelism with Asynchronous Lambdas on Fiasco.OC:L4Re.pdf */; };
+		0D55F31720F9C177002C2FEF /* Scalable Event Multiplexing_ epoll vs. kqueue.htm in Resources */ = {isa = PBXBuildFile; fileRef = 0D55F2F520F9C177002C2FEF /* Scalable Event Multiplexing_ epoll vs. kqueue.htm */; };
+		0D55F31820F9C177002C2FEF /* 1e2RywyANNe.html in Resources */ = {isa = PBXBuildFile; fileRef = 0D55F2F720F9C177002C2FEF /* 1e2RywyANNe.html */; };
+		0D55F31920F9C177002C2FEF /* 3723580519-idpiframe.js in Resources */ = {isa = PBXBuildFile; fileRef = 0D55F2F820F9C177002C2FEF /* 3723580519-idpiframe.js */; };
+		0D55F31A20F9C177002C2FEF /* api.js in Resources */ = {isa = PBXBuildFile; fileRef = 0D55F2F920F9C177002C2FEF /* api.js */; };
+		0D55F31B20F9C177002C2FEF /* avatar92(1).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0D55F2FA20F9C177002C2FEF /* avatar92(1).jpg */; };
+		0D55F31C20F9C177002C2FEF /* avatar92(2).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0D55F2FB20F9C177002C2FEF /* avatar92(2).jpg */; };
+		0D55F31D20F9C177002C2FEF /* avatar92.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0D55F2FC20F9C177002C2FEF /* avatar92.jpg */; };
+		0D55F31E20F9C177002C2FEF /* bootstrap.css in Resources */ = {isa = PBXBuildFile; fileRef = 0D55F2FD20F9C177002C2FEF /* bootstrap.css */; };
+		0D55F31F20F9C177002C2FEF /* bootstrap.js in Resources */ = {isa = PBXBuildFile; fileRef = 0D55F2FE20F9C177002C2FEF /* bootstrap.js */; };
+		0D55F32020F9C177002C2FEF /* cb=gapi.loaded_0 in Resources */ = {isa = PBXBuildFile; fileRef = 0D55F2FF20F9C177002C2FEF /* cb=gapi.loaded_0 */; };
+		0D55F32120F9C177002C2FEF /* common.bundle.5f8e47303ecf1055cd7c6905466d140a.js in Resources */ = {isa = PBXBuildFile; fileRef = 0D55F30020F9C177002C2FEF /* common.bundle.5f8e47303ecf1055cd7c6905466d140a.js */; };
+		0D55F32220F9C177002C2FEF /* config.js in Resources */ = {isa = PBXBuildFile; fileRef = 0D55F30120F9C177002C2FEF /* config.js */; };
+		0D55F32320F9C177002C2FEF /* discovery.539723090a04fba1b162858415868357.css in Resources */ = {isa = PBXBuildFile; fileRef = 0D55F30220F9C177002C2FEF /* discovery.539723090a04fba1b162858415868357.css */; };
+		0D55F32420F9C177002C2FEF /* discovery.bundle.daedd146972fc7d8dffd9be34c404865.js in Resources */ = {isa = PBXBuildFile; fileRef = 0D55F30320F9C177002C2FEF /* discovery.bundle.daedd146972fc7d8dffd9be34c404865.js */; };
+		0D55F32520F9C177002C2FEF /* embed.js in Resources */ = {isa = PBXBuildFile; fileRef = 0D55F30420F9C177002C2FEF /* embed.js */; };
+		0D55F32620F9C177002C2FEF /* ga.js in Resources */ = {isa = PBXBuildFile; fileRef = 0D55F30520F9C177002C2FEF /* ga.js */; };
+		0D55F32720F9C177002C2FEF /* getuid in Resources */ = {isa = PBXBuildFile; fileRef = 0D55F30620F9C177002C2FEF /* getuid */; };
+		0D55F32820F9C177002C2FEF /* iframe.html in Resources */ = {isa = PBXBuildFile; fileRef = 0D55F30720F9C177002C2FEF /* iframe.html */; };
+		0D55F32920F9C177002C2FEF /* jquery.js in Resources */ = {isa = PBXBuildFile; fileRef = 0D55F30820F9C177002C2FEF /* jquery.js */; };
+		0D55F32A20F9C177002C2FEF /* lounge.3999ac261b914f8b8b5e85df0ff3eaea.css in Resources */ = {isa = PBXBuildFile; fileRef = 0D55F30920F9C177002C2FEF /* lounge.3999ac261b914f8b8b5e85df0ff3eaea.css */; };
+		0D55F32B20F9C177002C2FEF /* lounge.bundle.33067ddbd4792de0b384ceb588602715.js in Resources */ = {isa = PBXBuildFile; fileRef = 0D55F30A20F9C177002C2FEF /* lounge.bundle.33067ddbd4792de0b384ceb588602715.js */; };
+		0D55F32C20F9C177002C2FEF /* lounge.load.48537a333e429dcb726ce9cdcc57a44f.js in Resources */ = {isa = PBXBuildFile; fileRef = 0D55F30B20F9C177002C2FEF /* lounge.load.48537a333e429dcb726ce9cdcc57a44f.js */; };
+		0D55F32D20F9C177002C2FEF /* noavatar92.7b2fde640943965cc88df0cdee365907.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D55F30C20F9C177002C2FEF /* noavatar92.7b2fde640943965cc88df0cdee365907.png */; };
+		0D55F32E20F9C177002C2FEF /* noavatar92.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D55F30D20F9C177002C2FEF /* noavatar92.png */; };
+		0D55F32F20F9C177002C2FEF /* pixel.html in Resources */ = {isa = PBXBuildFile; fileRef = 0D55F30E20F9C177002C2FEF /* pixel.html */; };
+		0D55F33020F9C177002C2FEF /* saved_resource in Resources */ = {isa = PBXBuildFile; fileRef = 0D55F30F20F9C177002C2FEF /* saved_resource */; };
+		0D55F33120F9C177002C2FEF /* saved_resource(1).html in Resources */ = {isa = PBXBuildFile; fileRef = 0D55F31020F9C177002C2FEF /* saved_resource(1).html */; };
+		0D55F33220F9C177002C2FEF /* saved_resource.html in Resources */ = {isa = PBXBuildFile; fileRef = 0D55F31120F9C177002C2FEF /* saved_resource.html */; };
+		0D55F33320F9C177002C2FEF /* sdk.js in Resources */ = {isa = PBXBuildFile; fileRef = 0D55F31220F9C177002C2FEF /* sdk.js */; };
+		0D55F33420F9C177002C2FEF /* sync.html in Resources */ = {isa = PBXBuildFile; fileRef = 0D55F31320F9C177002C2FEF /* sync.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,22 +125,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0D55F1F220F9A276002C2FEF /* XClibkqueue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XClibkqueue.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0D55F1F520F9A276002C2FEF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		0D55F1F620F9A276002C2FEF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0D55F1F820F9A276002C2FEF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0D55F1F920F9A276002C2FEF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		0D55F1FC20F9A276002C2FEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0D55F1FE20F9A276002C2FEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0D55F20120F9A276002C2FEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		0D55F20320F9A276002C2FEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0D55F20420F9A276002C2FEF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0D55F20A20F9A276002C2FEF /* XClibkqueueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XClibkqueueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0D55F20E20F9A276002C2FEF /* XClibkqueueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XClibkqueueTests.m; sourceTree = "<group>"; };
-		0D55F21020F9A276002C2FEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0D55F21520F9A276002C2FEF /* XClibkqueueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XClibkqueueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0D55F21920F9A276002C2FEF /* XClibkqueueUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XClibkqueueUITests.m; sourceTree = "<group>"; };
-		0D55F21B20F9A276002C2FEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D55F1F220F9A276002C2FEF /* XClibkqueue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = XClibkqueue.app; path = "/Users/jufanwang/Desktop/github/libkqueue/XClibkqueue/build/Debug-iphoneos/XClibkqueue.app"; sourceTree = "<absolute>"; };
+		0D55F20A20F9A276002C2FEF /* XClibkqueueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = XClibkqueueTests.xctest; path = "/Users/jufanwang/Desktop/github/libkqueue/XClibkqueue/build/Debug-iphoneos/XClibkqueueTests.xctest"; sourceTree = "<absolute>"; };
+		0D55F21520F9A276002C2FEF /* XClibkqueueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = XClibkqueueUITests.xctest; path = "/Users/jufanwang/Desktop/github/libkqueue/XClibkqueue/build/Debug-iphoneos/XClibkqueueUITests.xctest"; sourceTree = "<absolute>"; };
 		0D55F22820F9A28B002C2FEF /* kqueue.2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = kqueue.2; path = ../../kqueue.2; sourceTree = "<group>"; };
 		0D55F22920F9A28B002C2FEF /* ChangeLog */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ChangeLog; path = ../../ChangeLog; sourceTree = "<group>"; };
 		0D55F22B20F9A28B002C2FEF /* kqueue.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = kqueue.c; sourceTree = "<group>"; };
@@ -196,6 +208,39 @@
 		0D55F28320F9A28C002C2FEF /* test-lite.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "test-lite.c"; sourceTree = "<group>"; };
 		0D55F28420F9A28C002C2FEF /* utarray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utarray.h; sourceTree = "<group>"; };
 		0D55F28520F9A28C002C2FEF /* Vagrantfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Vagrantfile; path = ../../Vagrantfile; sourceTree = "<group>"; };
+		0D55F2F220F9C177002C2FEF /* KQUEUE prototype implementation for Linux. .pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "KQUEUE prototype implementation for Linux. .pdf"; sourceTree = "<group>"; };
+		0D55F2F320F9C177002C2FEF /* Kqueue- A generic and scalable event notification facility.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Kqueue- A generic and scalable event notification facility.pdf"; sourceTree = "<group>"; };
+		0D55F2F420F9C177002C2FEF /* Parallelism with Asynchronous Lambdas on Fiasco.OC:L4Re.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Parallelism with Asynchronous Lambdas on Fiasco.OC:L4Re.pdf"; sourceTree = "<group>"; };
+		0D55F2F520F9C177002C2FEF /* Scalable Event Multiplexing_ epoll vs. kqueue.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Scalable Event Multiplexing_ epoll vs. kqueue.htm"; sourceTree = "<group>"; };
+		0D55F2F720F9C177002C2FEF /* 1e2RywyANNe.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 1e2RywyANNe.html; sourceTree = "<group>"; };
+		0D55F2F820F9C177002C2FEF /* 3723580519-idpiframe.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "3723580519-idpiframe.js"; sourceTree = "<group>"; };
+		0D55F2F920F9C177002C2FEF /* api.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = api.js; sourceTree = "<group>"; };
+		0D55F2FA20F9C177002C2FEF /* avatar92(1).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "avatar92(1).jpg"; sourceTree = "<group>"; };
+		0D55F2FB20F9C177002C2FEF /* avatar92(2).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "avatar92(2).jpg"; sourceTree = "<group>"; };
+		0D55F2FC20F9C177002C2FEF /* avatar92.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = avatar92.jpg; sourceTree = "<group>"; };
+		0D55F2FD20F9C177002C2FEF /* bootstrap.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = bootstrap.css; sourceTree = "<group>"; };
+		0D55F2FE20F9C177002C2FEF /* bootstrap.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = bootstrap.js; sourceTree = "<group>"; };
+		0D55F2FF20F9C177002C2FEF /* cb=gapi.loaded_0 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "cb=gapi.loaded_0"; sourceTree = "<group>"; };
+		0D55F30020F9C177002C2FEF /* common.bundle.5f8e47303ecf1055cd7c6905466d140a.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = common.bundle.5f8e47303ecf1055cd7c6905466d140a.js; sourceTree = "<group>"; };
+		0D55F30120F9C177002C2FEF /* config.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = config.js; sourceTree = "<group>"; };
+		0D55F30220F9C177002C2FEF /* discovery.539723090a04fba1b162858415868357.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = discovery.539723090a04fba1b162858415868357.css; sourceTree = "<group>"; };
+		0D55F30320F9C177002C2FEF /* discovery.bundle.daedd146972fc7d8dffd9be34c404865.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = discovery.bundle.daedd146972fc7d8dffd9be34c404865.js; sourceTree = "<group>"; };
+		0D55F30420F9C177002C2FEF /* embed.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = embed.js; sourceTree = "<group>"; };
+		0D55F30520F9C177002C2FEF /* ga.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ga.js; sourceTree = "<group>"; };
+		0D55F30620F9C177002C2FEF /* getuid */ = {isa = PBXFileReference; lastKnownFileType = file; path = getuid; sourceTree = "<group>"; };
+		0D55F30720F9C177002C2FEF /* iframe.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = iframe.html; sourceTree = "<group>"; };
+		0D55F30820F9C177002C2FEF /* jquery.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.js; sourceTree = "<group>"; };
+		0D55F30920F9C177002C2FEF /* lounge.3999ac261b914f8b8b5e85df0ff3eaea.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = lounge.3999ac261b914f8b8b5e85df0ff3eaea.css; sourceTree = "<group>"; };
+		0D55F30A20F9C177002C2FEF /* lounge.bundle.33067ddbd4792de0b384ceb588602715.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = lounge.bundle.33067ddbd4792de0b384ceb588602715.js; sourceTree = "<group>"; };
+		0D55F30B20F9C177002C2FEF /* lounge.load.48537a333e429dcb726ce9cdcc57a44f.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = lounge.load.48537a333e429dcb726ce9cdcc57a44f.js; sourceTree = "<group>"; };
+		0D55F30C20F9C177002C2FEF /* noavatar92.7b2fde640943965cc88df0cdee365907.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noavatar92.7b2fde640943965cc88df0cdee365907.png; sourceTree = "<group>"; };
+		0D55F30D20F9C177002C2FEF /* noavatar92.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noavatar92.png; sourceTree = "<group>"; };
+		0D55F30E20F9C177002C2FEF /* pixel.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = pixel.html; sourceTree = "<group>"; };
+		0D55F30F20F9C177002C2FEF /* saved_resource */ = {isa = PBXFileReference; lastKnownFileType = file; path = saved_resource; sourceTree = "<group>"; };
+		0D55F31020F9C177002C2FEF /* saved_resource(1).html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "saved_resource(1).html"; sourceTree = "<group>"; };
+		0D55F31120F9C177002C2FEF /* saved_resource.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = saved_resource.html; sourceTree = "<group>"; };
+		0D55F31220F9C177002C2FEF /* sdk.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = sdk.js; sourceTree = "<group>"; };
+		0D55F31320F9C177002C2FEF /* sync.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = sync.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -226,56 +271,9 @@
 		0D55F1E920F9A276002C2FEF = {
 			isa = PBXGroup;
 			children = (
+				0D55F2F120F9C177002C2FEF /* 0 readdoc */,
 				0D55F22720F9A27C002C2FEF /* libkqueue */,
-				0D55F1F420F9A276002C2FEF /* XClibkqueue */,
-				0D55F20D20F9A276002C2FEF /* XClibkqueueTests */,
-				0D55F21820F9A276002C2FEF /* XClibkqueueUITests */,
-				0D55F1F320F9A276002C2FEF /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		0D55F1F320F9A276002C2FEF /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				0D55F1F220F9A276002C2FEF /* XClibkqueue.app */,
-				0D55F20A20F9A276002C2FEF /* XClibkqueueTests.xctest */,
-				0D55F21520F9A276002C2FEF /* XClibkqueueUITests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		0D55F1F420F9A276002C2FEF /* XClibkqueue */ = {
-			isa = PBXGroup;
-			children = (
-				0D55F1F520F9A276002C2FEF /* AppDelegate.h */,
-				0D55F1F620F9A276002C2FEF /* AppDelegate.m */,
-				0D55F1F820F9A276002C2FEF /* ViewController.h */,
-				0D55F1F920F9A276002C2FEF /* ViewController.m */,
-				0D55F1FB20F9A276002C2FEF /* Main.storyboard */,
-				0D55F1FE20F9A276002C2FEF /* Assets.xcassets */,
-				0D55F20020F9A276002C2FEF /* LaunchScreen.storyboard */,
-				0D55F20320F9A276002C2FEF /* Info.plist */,
-				0D55F20420F9A276002C2FEF /* main.m */,
-			);
-			path = XClibkqueue;
-			sourceTree = "<group>";
-		};
-		0D55F20D20F9A276002C2FEF /* XClibkqueueTests */ = {
-			isa = PBXGroup;
-			children = (
-				0D55F20E20F9A276002C2FEF /* XClibkqueueTests.m */,
-				0D55F21020F9A276002C2FEF /* Info.plist */,
-			);
-			path = XClibkqueueTests;
-			sourceTree = "<group>";
-		};
-		0D55F21820F9A276002C2FEF /* XClibkqueueUITests */ = {
-			isa = PBXGroup;
-			children = (
-				0D55F21920F9A276002C2FEF /* XClibkqueueUITests.m */,
-				0D55F21B20F9A276002C2FEF /* Info.plist */,
-			);
-			path = XClibkqueueUITests;
 			sourceTree = "<group>";
 		};
 		0D55F22720F9A27C002C2FEF /* libkqueue */ = {
@@ -482,6 +480,55 @@
 			path = ../../kqlite;
 			sourceTree = "<group>";
 		};
+		0D55F2F120F9C177002C2FEF /* 0 readdoc */ = {
+			isa = PBXGroup;
+			children = (
+				0D55F2F220F9C177002C2FEF /* KQUEUE prototype implementation for Linux. .pdf */,
+				0D55F2F320F9C177002C2FEF /* Kqueue- A generic and scalable event notification facility.pdf */,
+				0D55F2F420F9C177002C2FEF /* Parallelism with Asynchronous Lambdas on Fiasco.OC:L4Re.pdf */,
+				0D55F2F520F9C177002C2FEF /* Scalable Event Multiplexing_ epoll vs. kqueue.htm */,
+				0D55F2F620F9C177002C2FEF /* Scalable Event Multiplexing_ epoll vs. kqueue_files */,
+			);
+			name = "0 readdoc";
+			path = "../0 readdoc";
+			sourceTree = "<group>";
+		};
+		0D55F2F620F9C177002C2FEF /* Scalable Event Multiplexing_ epoll vs. kqueue_files */ = {
+			isa = PBXGroup;
+			children = (
+				0D55F2F720F9C177002C2FEF /* 1e2RywyANNe.html */,
+				0D55F2F820F9C177002C2FEF /* 3723580519-idpiframe.js */,
+				0D55F2F920F9C177002C2FEF /* api.js */,
+				0D55F2FA20F9C177002C2FEF /* avatar92(1).jpg */,
+				0D55F2FB20F9C177002C2FEF /* avatar92(2).jpg */,
+				0D55F2FC20F9C177002C2FEF /* avatar92.jpg */,
+				0D55F2FD20F9C177002C2FEF /* bootstrap.css */,
+				0D55F2FE20F9C177002C2FEF /* bootstrap.js */,
+				0D55F2FF20F9C177002C2FEF /* cb=gapi.loaded_0 */,
+				0D55F30020F9C177002C2FEF /* common.bundle.5f8e47303ecf1055cd7c6905466d140a.js */,
+				0D55F30120F9C177002C2FEF /* config.js */,
+				0D55F30220F9C177002C2FEF /* discovery.539723090a04fba1b162858415868357.css */,
+				0D55F30320F9C177002C2FEF /* discovery.bundle.daedd146972fc7d8dffd9be34c404865.js */,
+				0D55F30420F9C177002C2FEF /* embed.js */,
+				0D55F30520F9C177002C2FEF /* ga.js */,
+				0D55F30620F9C177002C2FEF /* getuid */,
+				0D55F30720F9C177002C2FEF /* iframe.html */,
+				0D55F30820F9C177002C2FEF /* jquery.js */,
+				0D55F30920F9C177002C2FEF /* lounge.3999ac261b914f8b8b5e85df0ff3eaea.css */,
+				0D55F30A20F9C177002C2FEF /* lounge.bundle.33067ddbd4792de0b384ceb588602715.js */,
+				0D55F30B20F9C177002C2FEF /* lounge.load.48537a333e429dcb726ce9cdcc57a44f.js */,
+				0D55F30C20F9C177002C2FEF /* noavatar92.7b2fde640943965cc88df0cdee365907.png */,
+				0D55F30D20F9C177002C2FEF /* noavatar92.png */,
+				0D55F30E20F9C177002C2FEF /* pixel.html */,
+				0D55F30F20F9C177002C2FEF /* saved_resource */,
+				0D55F31020F9C177002C2FEF /* saved_resource(1).html */,
+				0D55F31120F9C177002C2FEF /* saved_resource.html */,
+				0D55F31220F9C177002C2FEF /* sdk.js */,
+				0D55F31320F9C177002C2FEF /* sync.html */,
+			);
+			path = "Scalable Event Multiplexing_ epoll vs. kqueue_files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -572,7 +619,7 @@
 				Base,
 			);
 			mainGroup = 0D55F1E920F9A276002C2FEF;
-			productRefGroup = 0D55F1F320F9A276002C2FEF /* Products */;
+			productRefGroup = 0D55F1E920F9A276002C2FEF;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -589,24 +636,54 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D55F2C420F9A28C002C2FEF /* README in Resources */,
+				0D55F32A20F9C177002C2FEF /* lounge.3999ac261b914f8b8b5e85df0ff3eaea.css in Resources */,
+				0D55F33020F9C177002C2FEF /* saved_resource in Resources */,
+				0D55F31D20F9C177002C2FEF /* avatar92.jpg in Resources */,
 				0D55F29220F9A28C002C2FEF /* abtest in Resources */,
+				0D55F31B20F9C177002C2FEF /* avatar92(1).jpg in Resources */,
+				0D55F31620F9C177002C2FEF /* Parallelism with Asynchronous Lambdas on Fiasco.OC:L4Re.pdf in Resources */,
+				0D55F31C20F9C177002C2FEF /* avatar92(2).jpg in Resources */,
+				0D55F31920F9C177002C2FEF /* 3723580519-idpiframe.js in Resources */,
+				0D55F33120F9C177002C2FEF /* saved_resource(1).html in Resources */,
 				0D55F29620F9A28C002C2FEF /* CMakeLists.txt in Resources */,
 				0D55F29320F9A28C002C2FEF /* results.txt in Resources */,
 				0D55F28720F9A28C002C2FEF /* ChangeLog in Resources */,
+				0D55F33420F9C177002C2FEF /* sync.html in Resources */,
+				0D55F32920F9C177002C2FEF /* jquery.js in Resources */,
 				0D55F29520F9A28C002C2FEF /* scalability.png in Resources */,
 				0D55F2C620F9A28C002C2FEF /* Vagrantfile in Resources */,
+				0D55F31520F9C177002C2FEF /* Kqueue- A generic and scalable event notification facility.pdf in Resources */,
+				0D55F31720F9C177002C2FEF /* Scalable Event Multiplexing_ epoll vs. kqueue.htm in Resources */,
+				0D55F32E20F9C177002C2FEF /* noavatar92.png in Resources */,
+				0D55F33320F9C177002C2FEF /* sdk.js in Resources */,
+				0D55F31420F9C177002C2FEF /* KQUEUE prototype implementation for Linux. .pdf in Resources */,
+				0D55F32B20F9C177002C2FEF /* lounge.bundle.33067ddbd4792de0b384ceb588602715.js in Resources */,
 				0D55F29020F9A28C002C2FEF /* TODO in Resources */,
+				0D55F32220F9C177002C2FEF /* config.js in Resources */,
+				0D55F32820F9C177002C2FEF /* iframe.html in Resources */,
 				0D55F28620F9A28C002C2FEF /* kqueue.2 in Resources */,
 				0D55F28B20F9A28C002C2FEF /* config.h.in in Resources */,
+				0D55F32120F9C177002C2FEF /* common.bundle.5f8e47303ecf1055cd7c6905466d140a.js in Resources */,
+				0D55F32020F9C177002C2FEF /* cb=gapi.loaded_0 in Resources */,
 				0D55F28C20F9A28C002C2FEF /* LICENSE in Resources */,
+				0D55F32520F9C177002C2FEF /* embed.js in Resources */,
+				0D55F31820F9C177002C2FEF /* 1e2RywyANNe.html in Resources */,
+				0D55F32720F9C177002C2FEF /* getuid in Resources */,
 				0D55F29120F9A28C002C2FEF /* BUGS in Resources */,
+				0D55F32C20F9C177002C2FEF /* lounge.load.48537a333e429dcb726ce9cdcc57a44f.js in Resources */,
+				0D55F31F20F9C177002C2FEF /* bootstrap.js in Resources */,
 				0D55F28F20F9A28C002C2FEF /* CMakeLists.txt in Resources */,
-				0D55F20220F9A276002C2FEF /* LaunchScreen.storyboard in Resources */,
 				0D55F29420F9A28C002C2FEF /* scalability.ods in Resources */,
-				0D55F1FF20F9A276002C2FEF /* Assets.xcassets in Resources */,
+				0D55F32D20F9C177002C2FEF /* noavatar92.7b2fde640943965cc88df0cdee365907.png in Resources */,
 				0D55F28D20F9A28C002C2FEF /* README.md in Resources */,
-				0D55F1FD20F9A276002C2FEF /* Main.storyboard in Resources */,
 				0D55F28E20F9A28C002C2FEF /* libkqueue.pc.in in Resources */,
+				0D55F32620F9C177002C2FEF /* ga.js in Resources */,
+				0D55F32F20F9C177002C2FEF /* pixel.html in Resources */,
+				0D55F33220F9C177002C2FEF /* saved_resource.html in Resources */,
+				0D55F31E20F9C177002C2FEF /* bootstrap.css in Resources */,
+				0D55F32420F9C177002C2FEF /* discovery.bundle.daedd146972fc7d8dffd9be34c404865.js in Resources */,
+				0D55F31A20F9C177002C2FEF /* api.js in Resources */,
+				0D55F32320F9C177002C2FEF /* discovery.539723090a04fba1b162858415868357.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -641,7 +718,6 @@
 				0D55F2BC20F9A28C002C2FEF /* user.c in Sources */,
 				0D55F28920F9A28C002C2FEF /* Makefile in Sources */,
 				0D55F2AD20F9A28C002C2FEF /* signal.c in Sources */,
-				0D55F1FA20F9A276002C2FEF /* ViewController.m in Sources */,
 				0D55F2B220F9A28C002C2FEF /* kevent.c in Sources */,
 				0D55F2BD20F9A28C002C2FEF /* platform.c in Sources */,
 				0D55F2BF20F9A28C002C2FEF /* timer.c in Sources */,
@@ -665,7 +741,6 @@
 				0D55F2B020F9A28C002C2FEF /* vnode.c in Sources */,
 				0D55F29E20F9A28C002C2FEF /* signal.c in Sources */,
 				0D55F2B420F9A28C002C2FEF /* proc.c in Sources */,
-				0D55F20520F9A276002C2FEF /* main.m in Sources */,
 				0D55F2B720F9A28C002C2FEF /* user.c in Sources */,
 				0D55F29720F9A28C002C2FEF /* kevent.c in Sources */,
 				0D55F29B20F9A28C002C2FEF /* main.c in Sources */,
@@ -681,7 +756,6 @@
 				0D55F29A20F9A28C002C2FEF /* lockstat.c in Sources */,
 				0D55F2AE20F9A28C002C2FEF /* timer.c in Sources */,
 				0D55F2B120F9A28C002C2FEF /* write.c in Sources */,
-				0D55F1F720F9A276002C2FEF /* AppDelegate.m in Sources */,
 				0D55F29C20F9A28C002C2FEF /* proc.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -690,7 +764,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D55F20F20F9A276002C2FEF /* XClibkqueueTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -698,7 +771,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D55F21A20F9A276002C2FEF /* XClibkqueueUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -716,25 +788,6 @@
 			targetProxy = 0D55F21620F9A276002C2FEF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		0D55F1FB20F9A276002C2FEF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0D55F1FC20F9A276002C2FEF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		0D55F20020F9A276002C2FEF /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0D55F20120F9A276002C2FEF /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		0D55F21C20F9A276002C2FEF /* Debug */ = {
